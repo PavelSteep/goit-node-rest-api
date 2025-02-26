@@ -1,0 +1,43 @@
+{
+  "name": "goit-node-rest-api",
+  "version": "1.0.0",
+  "description": "Домашнє завдання 2",
+  "main": "index.js",
+  "scripts": {
+    "start": "cross-env NODE_ENV=production node ./server.js",
+    "start:dev": "cross-env NODE_ENV=development nodemon ./server.js",
+    "lint": "eslint **/*.js",
+    "lint:fix": "eslint **/*.js --fix",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PavelSteep/goit-node-rest-api.git"
+  },
+  "keywords": [],
+  "author": "Pavel_Paul <bpv358@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PavelSteep/goit-node-rest-api/issues"
+  },
+  "homepage": "https://github.com/PavelSteep/goit-node-rest-api#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "cross-env": "^7.0.3",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "fs-extra": "^11.3.0",
+    "joi": "^17.13.3",
+    "morgan": "^1.10.0",
+    "uuid": "^11.1.0"
+  },
+  "devDependencies": {
+    "eslint": "^9.21.0",
+    "eslint-config-prettier": "^10.0.1",
+    "eslint-config-standard": "^17.1.0",
+    "eslint-plugin-import": "^2.31.0",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^7.2.1",
+    "nodemon": "^3.1.9"
+  }
+}
